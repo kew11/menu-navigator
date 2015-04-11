@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Challenge</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="page">
+		<header><h1>Drawer Menu Bar</h1></header>
+			<nav> 
+				<ul class="show">
+					<a href="#" ><li>Home</li></a>	
+					<a href="#" ><li>About</li></a>	
+					<a href="#" ><li>Gallery</li></a>	
+					<a href="#" ><li>Blog</li></a>	
+					<a href="#" ><li>Contact</li></a>	
+				</ul>
+				<div class="handle"> &#9776;&nbsp; Menu </div>
+			</nav>
+			<section>
+	 			Some text some text some text. Some text some text some text. Some text some text some text. 
+	 			Some text some text some text. Some text some text some text. Some text some text some text.
+	 			Some text some text some text.Some text some text some text. Some text some text some text.
+	 			Some text some text some text. Some text some text some text. Some text some text some text.
+	 			Some text some text some text. Some text some text some text. Some text some text some text.
+	 			Some text some text some text. Some text some text some text. Some text some text some text.
+	 			Some text some text some text. Some text some text some text. Some text some text some text.
+	 			Some text some text some text. Some text some text some text. Some text some text some text.
+	 			Some text some text some text. Some text some text some text.
+			</section>
+	</div>
+	<script>
+		$('.handle').on('click', function(){
+			$('nav ul').toggleClass('show');
+		})
+	</script>
+
+</body>
+</html>
